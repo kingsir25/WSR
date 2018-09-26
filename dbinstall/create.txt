@@ -1,0 +1,37 @@
+
+1.install mysql5.5
+    username: root
+    password: admin
+
+2.login mysql
+cmd-> "mysql -uroot -p" 
+password: admin
+
+3.create database test_schema;
+
+4.create table resource(
+id int unsigned not null,
+name varchar(20),
+sex varchar(20),
+level varchar(20),
+comeDate int
+);
+
+insert into resource(id,name,sex,level,comedate) values(100,'XXYYZZ','male','AM',20100308);
+
+insert into resource(id,name,sex,level,comeDate) values(
+1,'jaek','male','AM',20100101);
+
+insert into resource(id,name,sex,level,comedate) values(
+2,
+'meinv',
+'female',
+'sse',
+20170903);
+
+insert into resource(id,name,sex,level,comedate) values(
+3,
+'laoda',
+'male',
+'M',
+20170818);
