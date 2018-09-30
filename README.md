@@ -4,8 +4,8 @@ java1.8se，
 maven-3.5.4，
 
 eclipse marketplace install the Spinh Toold plug-in 
-"Spring Tools 3 Add-On 3.9.5 RELEASE"
-eclipse Version: 2018-09 (4.9.0) + "Sptinh Toold 4 4.4.0.0.RELEASE"
+eclipse Version: Oxygen.1a Release (4.7.1a) + "Spring Tools 3 Add-On 3.9.5 RELEASE"  TEST OK
+eclipse Version: 2018-09 (4.9.0)    + "Sptinh Toold 4 4.4.0.0.RELEASE"               TEST OK
 后台db数据库使用mysql5
 
 
