@@ -40,7 +40,7 @@
 >>> [INFO] Finished at: 2018-09-30T19:33:20+08:00
 >>> [INFO] ------------------------------------------------------------------------
 
-##常见错误解决办法
+## 常见错误解决办法
 1. 错误: 找不到或无法加载主类 com.example.demo.DemoApplication
 
 2. junit-4.12.jar时出错; invalid CEN header (bad signature)
