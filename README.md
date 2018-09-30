@@ -22,25 +22,25 @@
 
 3. 如果有依赖冲突的时候，可以尝试命令行“mvn clean install”
 >> 显示结果如下：
->>> Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+>>> #### Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
 
->>> [INFO]
->>> [INFO] --- maven-jar-plugin:2.6:jar (default-jar) @ demo ---
->>> [INFO] Building jar: D:\eclipse-workspace\WSR\target\demo-0.0.1-SNAPSHOT.jar
->>> [INFO]
->>> [INFO] --- spring-boot-maven-plugin:1.5.14.RELEASE:repackage (default) @ demo ---
->>> [INFO]
->>> [INFO] --- maven-install-plugin:2.5.2:install (default-install) @ demo ---
->>> [INFO] Installing D:\eclipse-workspace\WSR\target\demo-0.0.1-SNAPSHOT.jar to C:\Users\Administrator\.m2\repository\com\example\demo\0.0.1-SN
->>> APSHOT\demo-0.0.1-SNAPSHOT.jar
->>> [INFO] Installing D:\eclipse-workspace\WSR\pom.xml to C:\Users\Administrator\.m2\repository\com\example\demo\0.0.1-SNAPSHOT\demo-0.0.1-SNAPS
->>> HOT.pom
->>> [INFO] ------------------------------------------------------------------------
->>> [INFO] BUILD SUCCESS
->>> [INFO] ------------------------------------------------------------------------
->>> [INFO] Total time: 15.722 s
->>> [INFO] Finished at: 2018-09-30T19:33:20+08:00
->>> [INFO] ------------------------------------------------------------------------
+>>> #### [INFO]
+>>> #### [INFO] --- maven-jar-plugin:2.6:jar (default-jar) @ demo ---
+>>> #### [INFO] Building jar: D:\eclipse-workspace\WSR\target\demo-0.0.1-SNAPSHOT.jar
+>>> #### [INFO]
+>>> #### [INFO] --- spring-boot-maven-plugin:1.5.14.RELEASE:repackage (default) @ demo ---
+>>> #### [INFO]
+>>> #### [INFO] --- maven-install-plugin:2.5.2:install (default-install) @ demo ---
+>>> #### [INFO] Installing D:\eclipse-workspace\WSR\target\demo-0.0.1-SNAPSHOT.jar to C:\Users\Administrator\.m2\repository\com\example\demo\0.0.1-SN
+>>> #### APSHOT\demo-0.0.1-SNAPSHOT.jar
+>>> #### [INFO] Installing D:\eclipse-workspace\WSR\pom.xml to C:\Users\Administrator\.m2\repository\com\example\demo\0.0.1-SNAPSHOT\demo-0.0.1-SNAPS
+>>> #### HOT.pom
+>>> #### [INFO] ------------------------------------------------------------------------
+>>> #### [INFO] BUILD SUCCESS
+>>> #### [INFO] ------------------------------------------------------------------------
+>>> #### [INFO] Total time: 15.722 s
+>>> #### [INFO] Finished at: 2018-09-30T19:33:20+08:00
+>>> #### [INFO] ------------------------------------------------------------------------
 
 ## 常见错误解决办法
 1. 错误: 找不到或无法加载主类 com.example.demo.DemoApplication
