@@ -16,8 +16,7 @@ eclipse Version: 2018-09 (4.9.0)    + "Sptinh Toold 4 4.4.0.0.RELEASE"          
 显示如下mysql中Resource表的内容。
 [{"id":100,"name":"XXYYZZ","sex":"male","level":"AM","comeDate":0},{"id":1,"name":"jaek","sex":"male","level":"AM","comeDate":0},{"id":2,"name":"meinv","sex":"female","level":"sse","comeDate":0},{"id":3,"name":"laoda","sex":"male","level":"M","comeDate":0}]
 
-
-命令行使用“mvn clean install”
+如果有依赖冲突的时候，可以尝试命令行“mvn clean install”
 显示结果如下：
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
 
