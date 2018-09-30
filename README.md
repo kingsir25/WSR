@@ -1,16 +1,16 @@
 # WSR
 # 入门Springboot例子
 
-# software version 
-> java1.8se， 
-> maven-3.5.4，
+## software version 
+* java1.8se， 
+* maven-3.5.4，
 
-> eclipse marketplace install the Spinh Toold plug-in 
->> eclipse Version: Oxygen.1a Release (4.7.1a) 
->> + "Spring Tools 3 Add-On 3.9.5 RELEASE"         TEST OK
->> eclipse Version: 2018-09 (4.9.0)    
->> + "Sptinh Toold 4 4.4.0.0.RELEASE"               TEST OK
-> 后台db数据库使用mysql5
+* eclipse marketplace install the Spinh Toold plug-in 
+> > eclipse Version: Oxygen.1a Release (4.7.1a) 
+> > + "Spring Tools 3 Add-On 3.9.5 RELEASE"         TEST OK
+> > eclipse Version: 2018-09 (4.9.0)    
+> > + "Sptinh Toold 4 4.4.0.0.RELEASE"               TEST OK
+* 后台db数据库使用mysql5
 
 
 1. 浏览器URL输入：http://localhost:9090/demo/hi/say?id=1
