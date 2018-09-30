@@ -11,7 +11,7 @@
 > + eclipse Version: 2018-09 (4.9.0)    
 > > - "Sptinh Toold 4 4.4.0.0.RELEASE"               TEST OK
 * 后台db数据库使用mysql5
-* [db]: https://github.com/kingsir25/WSR/blob/master/dbinstall/create.txt "dbinstall/create.txt"
+ [db]: https://github.com/kingsir25/WSR/blob/master/dbinstall/create.txt "dbinstall/create.txt"
 >> 参照[db]文件，导入数据.
 
 1. 浏览器URL输入：http://localhost:9090/demo/hi/say?id=1
