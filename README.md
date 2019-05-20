@@ -9,7 +9,7 @@
 > + eclipse Version: Oxygen.1a Release (4.7.1a) 
 > > - "Spring Tools 3 Add-On 3.9.5 RELEASE"         TEST OK
 > + eclipse Version: 2018-09 (4.9.0)    
-> > - "Sptinh Toold 4 4.4.0.0.RELEASE"               TEST OK
+> > - "Spting Tools 4 4.4.0.0.RELEASE"               TEST OK
 * 后台db数据库使用mysql5
 >> [db]: https://github.com/kingsir25/WSR/blob/master/dbinstall/create.txt "dbinstall/create.txt"
 >> 参照[db]文件，导入数据.
