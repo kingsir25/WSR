@@ -1,16 +1,21 @@
 package com.example.demo.domain;
 import org.hibernate.validator.constraints.NotBlank;
+
+import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import javax.validation.constraints.Min;
+import javax.persistence.Table;
+
 import javax.validation.constraints.NotNull;
 
 @Entity
+@Table(name = "resource")
 public class Resource {
     @Id
-    @GeneratedValue
-    private Integer id;
+    //@GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name="id")
+    private Integer id = (int)(Math.random()*1000);
+    //private String id = UUID.randomUUID().toString().replace("-", "");
 
     @NotBlank(message ="name not is blank")
     private String name;
