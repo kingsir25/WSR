@@ -64,6 +64,10 @@
     <version>1.10.19</version>
     <scope>test</scope>
 </dependency>
+4. 在标签头出现这么一大串东西，点击项目工程，点击maven4MyEclipse，点击update maven dependencies,进去之后，把左下角的 Force update of Snapshots/Releases点击上，最后点击Ok。就好了。
+
+我面临的Maven问题，大多数是jar包没有或者没有下载完整。只能多试几次，pom.xml文件里面出现多种问题，一点点解决。
+
 
 <!-- https://mvnrepository.com/artifact/junit/junit -->
 <dependency>
